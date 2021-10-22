@@ -1,0 +1,170 @@
+body{
+    font-family: 'Merriweather', sans-serif;
+    font-size: medium;
+    margin: 20px 35px;
+    color: #777990;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+.logo{
+    height: 100%;
+    max-height: 75px;
+    width: auto;
+    float: left;
+}
+
+.logo:hover{
+    transform: translateY(-0.40em);
+    transition: 300ms ease-in;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+    margin: 1rem 2.2rem;
+}
+
+header nav a:hover{
+    color: #777990;
+    transform: translateY(-0.20em);
+    transition: 200ms ease;
+}
+
+header nav, header a{
+    padding-top: 40px;
+}
+
+/* .contact-me{
+    margin-top: 80px;
+} */
+
+.contact-me a,#button,.intro1 a{
+    text-decoration: none;
+    display: inline;
+    padding: 30px 45px;
+    border: 2px solid black;
+    color: white;
+    border-radius: 80px;
+    background-color: black;
+}
+
+.contact-me a:hover,#button:hover,.intro1 a:hover{
+    transform: translateY(-0.20em);
+    transition: 200ms ease;
+    color: black;
+    background-color: white;
+    box-shadow: 0 0.5em 1.2em -0.7em black;
+    border-color: white;
+}
+
+.intro{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.intro h3{
+    color: #4e4b66;
+}
+
+.intro h1{
+    font-size: 50px;
+    margin-top: 0;
+}
+
+.intro img{
+    width: 28rem;
+    height: 28rem;
+}
+
+.about{
+    width: 60%;
+    margin: 150px auto 100px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.skills{
+    margin: 80px 0;
+}
+
+#button a,.intro1 a{
+    text-decoration: none;
+    color: white;
+}
+
+#button a:hover{
+    transform: translateY(-0.20em);
+    transition: 200ms ease;
+    color: black;
+    background-color: white;
+    box-shadow: 0 0.5em 1.2em -0.7em black;
+    border-color: white;
+}
+
+.about h1{
+    font-size: 2.5rem;
+}
+
+.skills-block{
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 48px;
+    grid-row-gap: 40px;
+    text-align: center;
+    background-color: rgba(245, 244, 244, 0.925);
+    border-radius: 20px;
+    padding: 3.2rem 0;
+}
+
+.skill{
+    display: flex;
+    background-color: white;
+    padding: 20px 10px;
+    border-radius: 20px;
+}
+
+.skills img{
+    width: 100px;
+    height: 120px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(245, 244, 244, 0.925);
+    border-radius: 20px;
+}
+
+footer div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .logo{
+    width: 200px;
+}
+
+.social-media{
+    display: flex;
+    flex-direction: row;
+}
+
+#media img{
+    width: 45px;
+    padding: 10px 20px;
+}
+

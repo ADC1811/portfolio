@@ -1,0 +1,66 @@
+/* body {
+    font-family: Satoshi, sans-serif;
+    color: #777990;
+    font-size: 18px;
+    line-height: 1.777em;
+    font-weight: 500;
+} */
+
+.contact{
+    padding: 100px 0px;
+    width: 70%;
+    margin: auto;
+}
+
+.contact h1{
+    font-size: 70px;
+    text-align: center;
+}
+
+.contact p{
+    line-height: 35px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.contact form{
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 40px;
+    grid-row-gap: 25px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact label{
+    display: block;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.contact input, textarea, select{
+    text-align: left;
+    padding: 18px;
+    width: 80%;
+    border: 1px solid rgb(119, 121, 144);
+    border-radius: 10px;
+}
+
+.contact input:hover, textarea:hover, select:hover{
+    border-color: black;
+}
+
+.form{
+    padding: 70px 50px;
+    border: 1px solid rgb(119, 121, 144);
+    border-radius: 20px;
+}
+
+#button{
+    margin: 70px 0;
+}
+
+label{
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+}
